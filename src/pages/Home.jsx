@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+
+import TodoList from "../components/TodoList";
 
 const Home = () => {
-  return <div></div>;
-};
 
+  return (
+    <>
+    <TodoList></TodoList>
+    </>
+  )
+  }
 export default Home;
